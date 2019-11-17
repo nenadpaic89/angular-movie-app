@@ -1,0 +1,5 @@
+<p>Name: {{ movie.name }}</p>
+<img [src]="movie.imageUrl">
+<p>Director: {{ movie.director }}</p>
+<p>Dureation: {{ movie.duration }}</p>
+<p>{{ movie.genres.join(', ') }}</p>
